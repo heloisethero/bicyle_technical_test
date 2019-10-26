@@ -1,4 +1,4 @@
-# Bicycle technical test
+# The bicycle technical test
 
 ## Context
 
