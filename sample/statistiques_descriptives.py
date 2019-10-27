@@ -267,7 +267,7 @@ def save_df_with_features(df, table_name, path):
 
 if __name__ == "__main__":
     DATA_PATH = "./data/"
-    OUTPUT_PATH = "./graphs/"
+    OUTPUT_PATH = "./output/"
 
     bike_df = pd.read_csv(DATA_PATH + "bike_data.csv")
     save_column_description(df=bike_df, table_name="slide03_column-description.csv", path=OUTPUT_PATH)
@@ -292,5 +292,5 @@ if __name__ == "__main__":
     save_df_with_features(df=bike_df_with_datetime_specialday_features,
                           table_name="bike_data_with_features.csv", path=DATA_PATH)
 
-    print("The analysis is done :)")
+    print("The modelling analysis is done :)")
     print("You can go see the graphics in the", OUTPUT_PATH, "folder.")

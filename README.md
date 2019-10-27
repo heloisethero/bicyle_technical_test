@@ -35,13 +35,13 @@ To have the figures and the tables corresponding to the first part of the presen
 ```
 python ./sample/statistiques_descriptives.py
 ```
-You will see the output files (the graphs and tables from slides 3 to 10) appear in the `graphs` folder.
+You will see the output files (the graphs and tables from slides 3 to 10) appear in the `output` folder.
 
 For the figures and the tables corresponding to the second part, this is the command to launch:
 ```
 python ./sample/machine_learning.py
 ```
-You will see the output files (the graphs and tables from slides 15 to 17) appear in the `graphs` folder.
+You will see the output files (the graphs and tables from slides 15 to 17) appear in the `output` folder.
 
 To run both scripts at once, you can use this command:
 ```
@@ -63,4 +63,4 @@ Then the code will be run with this command:
 ```
 docker-compose -f docker-compose.yml up -d
 ```
-You will then see all the output files in the `graphs` folder.
+You will then see all the output files in the `output` folder.

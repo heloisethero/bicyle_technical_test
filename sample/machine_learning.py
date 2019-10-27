@@ -130,7 +130,7 @@ def save_predicted_interaction(data, y_hat, figure_name, path):
 
 if __name__ == "__main__":
     DATA_PATH = "./data/"
-    OUTPUT_PATH = "./graphs/"
+    OUTPUT_PATH = "./output/"
 
     data, y = get_shuffled_data(file_name="bike_data_with_features.csv", path=DATA_PATH)
     model = Ridge(normalize=True, alpha=0.01)
@@ -159,5 +159,5 @@ if __name__ == "__main__":
     save_predicted_interaction(data=data, y_hat=y_hat,
                                figure_name="slide17_predicted-interaction.png", path=OUTPUT_PATH)
 
-    print("The analysis is done :)")
+    print("The statistic analysis is done :)")
     print("You can go see the graphics in the", OUTPUT_PATH, "folder.")
