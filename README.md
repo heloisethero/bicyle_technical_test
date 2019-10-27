@@ -63,5 +63,4 @@ Then the code will be run with this command:
 ```
 docker-compose -f docker-compose.yml up -d
 ```
-
-The figures and tables will appear in the "results_stat" and "results_model" folders.
+You will then see all the output files in the `graphs` folder.
