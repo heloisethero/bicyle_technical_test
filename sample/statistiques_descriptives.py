@@ -267,7 +267,7 @@ def save_df_with_features(df, table_name, path):
 
 if __name__ == "__main__":
     DATA_PATH = "./data/"
-    OUTPUT_PATH = "./results_stat/"
+    OUTPUT_PATH = "./graphs/"
 
     bike_df = pd.read_csv(DATA_PATH + "bike_data.csv")
     save_column_description(df=bike_df, table_name="slide03_column-description.csv", path=OUTPUT_PATH)

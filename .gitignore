@@ -1,2 +1,4 @@
 .DS_store
 *.png
+*.csv
+!data/bike_data.csv

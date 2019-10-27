@@ -130,7 +130,7 @@ def save_predicted_interaction(data, y_hat, figure_name, path):
 
 if __name__ == "__main__":
     DATA_PATH = "./data/"
-    OUTPUT_PATH = "./results_model/"
+    OUTPUT_PATH = "./graphs/"
 
     data, y = get_shuffled_data(file_name="bike_data_with_features.csv", path=DATA_PATH)
     model = Ridge(normalize=True, alpha=0.01)

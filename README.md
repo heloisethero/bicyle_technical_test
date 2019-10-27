@@ -8,7 +8,7 @@ The dataset is based on the [_Bike Sharing Demand_ Kaggle competition](https://w
 * First describe the dataset and which factors seem to influence the bike demand with a few graphics
 * Then train a model to predict the `count` variable (the number of bikes rented per hour), and describe its performance
 
-At the end of the technical test, I was supposed to send a folder with my codes and a presentation of about 10 slides. You can see my presentation in the _bicycle_exercice_results.pdf_ file.
+At the end of the technical test, I was supposed to send a folder with my codes and a presentation of about 10 slides. You can see my presentation in the `docs` folder (it is named _bicycle_exercice_results.pdf_).
 
 ## My approach
 
@@ -33,17 +33,17 @@ pip install -r requirements.txt
 
 To have the figures and the tables corresponding to the first part of the presentation, you need to launch:
 ```
-python statistiques_descriptives.py
+python ./sample/statistiques_descriptives.py
 ```
-The output files will appear in the "results_stat" folder.
+You will see the output files (the graphs and tables from slides 3 to 10) appear in the `graphs` folder.
 
 For the figures and the tables corresponding to the second part, this is the command to launch:
 ```
-python machine_learning.py
+python ./sample/machine_learning.py
 ```
-The output files will appear in the "results_model" folder.
+You will see the output files (the graphs and tables from slides 15 to 17) appear in the `graphs` folder.
 
-To run both scipts at once, you can use this command:
+To run both scripts at once, you can use this command:
 ```
 ./main.sh
 ```
