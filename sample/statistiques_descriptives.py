@@ -292,5 +292,5 @@ if __name__ == "__main__":
     save_df_with_features(df=bike_df_with_datetime_specialday_features,
                           table_name="bike_data_with_features.csv", path=DATA_PATH)
 
-    print("The modelling analysis is done :)")
+    print("The statistical analysis is done :)")
     print("You can go see the graphics in the", OUTPUT_PATH, "folder.")

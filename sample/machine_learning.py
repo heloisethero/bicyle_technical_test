@@ -159,5 +159,5 @@ if __name__ == "__main__":
     save_predicted_interaction(data=data, y_hat=y_hat,
                                figure_name="slide17_predicted-interaction.png", path=OUTPUT_PATH)
 
-    print("The statistic analysis is done :)")
+    print("The modelling analysis is done :)")
     print("You can go see the graphics in the", OUTPUT_PATH, "folder.")
