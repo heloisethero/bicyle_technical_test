@@ -2,21 +2,23 @@
 
 ## Context
 
-This repository contains the technical test I did to apply for a data science consulting company. The goal of the test was to evaluate competences in development and data science, and more precisely the ability to do descriptive statistics followed by a predictive model.
+This repository contains the technical test I did to apply for a data science consulting company. I had two weeks to do it, and I could only work on it at nights and on week-ends because I was working at another job back then. I also had no internet at the time, so I had to crash at friends' to work on it but that part was actually quite fun.
 
-The dataset is based on the [_Bike Sharing Demand_ Kaggle competition](https://www.kaggle.com/c/bike-sharing-demand). The data is about a shared bike system (as the Velib system in Paris). The goal of the exercise was two-fold:
+The dataset is based on the [_Bike Sharing Demand_ Kaggle competition](https://www.kaggle.com/c/bike-sharing-demand). The data is about a shared bike system (as the Velib system in Paris). The goal of the test was to evaluate competences in development and data science. More precisely it was two-fold:
 * First describe the dataset and which factors seem to influence the bike demand with a few graphics
 * Then train a model to predict the `count` variable (the number of bikes rented per hour), and describe its performance
 
-At the end of the technical test, I was supposed to send a folder with my codes and a presentation of about 10 slides. You can see my presentation in the `docs` folder (it is named _bicycle_exercice_results.pdf_).
+At the end of the technical test, I was supposed to send a folder with my codes and a presentation of about 10 slides. You can see my presentation named _bicycle_exercice_results.pdf_ in the `docs` folder (Yes I know it is more than 10 slides, I tend to talk too much...).
 
 ## My approach
 
-I wanted to spend not that much time on the statistical description but when I started digging around, I found many interesting things and I actually ended up arranging a lot the graphics for the presentation.
+I wanted to spend not that too much time on the statistical description but when I started digging around, I found many interesting things and I actually ended up working a lot on the graphics' beauty for the presentation.
 
-Because I wanted time to clean the code at the end, I was left with only a few hours to train the model. I decided to do a one-hot-encoder on many variables and try a linear model because I have read [here](https://www.eyrolles.com/Informatique/Livre/data-science-fondamentaux-et-etudes-de-cas-9782212142433/) that such model could perform quite well to predict a time series variable. I was happy to obtain a R2 of 0.7 and decided to keep this model. I regretted a bit not having time to run a random forest or an XGBoost.
+I was finally left with only a few hours to train the model. I decided to try a linear model while doing a one-hot-encoder on many variables because I have read [here](https://www.eyrolles.com/Informatique/Livre/data-science-fondamentaux-et-etudes-de-cas-9782212142433/) that such model could perform quite well to predict a time series variable. I was happy to obtain a R2 of 0.7 and decided to keep this model. I regretted a bit not having time to run a random forest or an XGBoost.
 
-I wanted to show my ability to deliver clean code so I spent a lot of time in the end creating functions with docstrings. I also created a docker service so my code could be run on different OS and also because I wanted to try Docker on a small project like this.
+I wanted to show my ability to deliver clean code so I spent a lot of time in the end creating functions with docstrings. I also wanted to try Docker on a simple project like this.
+
+In the end I did not get the job but I am proud of the code so here it is.
 
 ## How to run the code
 
