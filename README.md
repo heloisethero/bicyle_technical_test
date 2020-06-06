@@ -22,7 +22,12 @@ In the end I did not get the job but I am proud of the code so here it is.
 
 ## How to run the code
 
-There are two ways to run the code: either directly on python, or within a docker.
+There are two ways to run the code: either directly on python, or within a docker. But first you should get this repo:
+
+```
+git clone https://github.com/heloisethero/bicyle_technical_test
+cd bicyle_technical_test
+```
 
 ### with Python
 
@@ -58,11 +63,11 @@ First you need to install Docker if necessary.
 
 To run the code, you need to first build the docker:
 ```
-docker-compose -f docker-compose.yml build python-test-bicycle
+docker build -t python-test-bicycle .
 ```
 
 Then the code will be run with this command:
 ```
-docker-compose -f docker-compose.yml up -d
+docker run -v "$(pwd)"/output:/app/output -d python-test-bicycle
 ```
 You will then see all the output files in the `output` folder.
