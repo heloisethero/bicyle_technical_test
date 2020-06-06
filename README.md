@@ -33,24 +33,24 @@ cd bicyle_technical_test
 
 This code was developed and tested with Python 3.6.5. If necessary you need to install Python.
 
-First you need to install the libraries described in the requirements.txt, for example through pip:
+You should install the libraries described in the requirements.txt, for example through pip:
 ```
 pip install -r requirements.txt
 ```
 
-To have the figures and the tables corresponding to the first part of the presentation, you need to launch:
+To have the figures and the tables corresponding to the first part of the presentation, you need to run:
 ```
 python ./sample/statistiques_descriptives.py
 ```
 You will see the output files (the graphs and tables from slides 3 to 10) appear in the `output` folder.
 
-For the figures and the tables corresponding to the second part, this is the command to launch:
+For the figures and the tables corresponding to the second part, this is the command:
 ```
 python ./sample/machine_learning.py
 ```
 You will see the output files (the graphs and tables from slides 15 to 17) appear in the `output` folder.
 
-To run both scripts at once, you can use this command:
+To run both scripts at once, you can use this:
 ```
 ./main.sh
 ```
@@ -59,14 +59,12 @@ To run both scripts at once, you can use this command:
 
 Docker allows you to run the code without needing to install Python locally.
 
-First you need to install Docker if necessary.
-
-To run the code, you need to first build the docker image:
+You need to first install Docker if necessary, then build the docker image:
 ```
 docker build -t python-test-bicycle .
 ```
 
-Running the Docker will create the output files in the `output` folder:
+Finally running it will create the figures and tables in the `output` folder:
 ```
 docker run -v "$(pwd)"/output:/app/output -d python-test-bicycle
 ```
