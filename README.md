@@ -8,7 +8,7 @@ The dataset is based on the [_Bike Sharing Demand_ Kaggle competition](https://w
 * First describe the dataset and which factors seem to influence the bike demand with a few graphics
 * Then train a model to predict the `count` variable (the number of bikes rented per hour), and describe its performance
 
-At the end of the technical test, I was supposed to send a folder with my codes and a presentation of about 10 slides. You can see my presentation named _bicycle_exercice_results.pdf_ in the `docs` folder (Yes I know it is more than 10 slides, I tend to talk too much...).
+At the end of the technical test, I was supposed to send a folder with my codes and a presentation of about 10 slides. You can see my presentation [here](https://github.com/heloisethero/bicyle_technical_test/blob/master/docs/bicycle_exercise_results.pdf) (Yes I know it is more than 10 slides, I tend to talk too much...).
 
 ## My approach
 
